@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 100%;
+    background: url(../Assests/background\ -\ Copy.jpeg);
+    background-position: relative;
+    z-index: 1;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    font-family: sans-serif;
+}
+.navbar {
+    width: 86%;
+    display: flex;
+    margin: auto;
+    padding: 15px 0;
+    align-items: center; /* Vertically centers items */
+    justify-content: space-between; /* Space between navbar items */
+}
+
+.navbar .logo {
+    cursor: pointer;
+    font-size: 25px;
+    color: rgb(14, 13, 13);
+    font-weight: 600;
+    font-family: 'Poppins'; /* Corrected font-family */
+    transition: 0.3s ease;
+    white-space: nowrap; /* Prevents line break */
+    margin-top: 1%;
+}
+
+
+.logo:hover{
+    color: #829672;
+    text-shadow: 0 0 25px  aquamarine,
+                 0 0 50px aquamarine;
+    transform: scale(1.1);
+     
+}
+span{
+    color:#D8959B;
+    
+}
+ul{
+    margin-top: 4%;
+}
+ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 16px;
+}
+ul li a{
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: 'Poppins';
+    color:#D8959B;
+    margin-top: -3%;
+    position: relative;
+}
+ul li a:hover{
+    color: #E3DADE;
+}
+.title{
+    color: #D8959B;
+    font-weight: 700;
+    font-size: x-large;
+
+}
+
+.info {
+    margin: 40px 7%; /* Increased margin for better spacing */
+    background: rgba(255, 255, 255, 0.9); /* Light background for the info section */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.info h1 {
+    font-size: 40px;
+    color: #829672;
+}
+
+.info h3 {
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 24px;
+    color: #34495e; /* Darker color for better readability */
+}
+
+.info span {
+    color: #0E8992;
+}
+
+.image {
+    width: 30%;
+    position: absolute;
+    right: 20px; /* Adjusted positioning */
+    bottom: 20px; /* Adjusted positioning */
+    display: flex;
+    justify-content: flex-start; /* Aligns children to the left */
+}
+
+.image img {
+    margin: 20px 0;
+    width: 250px;
+    border-radius: 30%;
+    transition: transform 0.3s; /* Smooth transition on hover */
+}
+
+.image img:hover {
+    transform: scale(1.05); /* Slight zoom effect on hover */
+}
+
+@media (max-width: 600px) {
+    .navbar {
+        flex-direction: column; /* Stack items vertically on small screens */
+        align-items: flex-start;
+    }
+
+    .info {
+        margin: 20px 5%; /* Adjusted for smaller screens */
+        padding: 15px;
+    }
+
+    .info h1 {
+        font-size: 28px;
+    }
+
+    .info h3 {
+        font-size: 16px;
+    }
+
+    ul li {
+        padding: 8px 10px; /* Adjust padding for smaller screens */
+    }
+}
