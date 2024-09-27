@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="personality.style.css">
+    <title>Personal Reflection</title>
+</head>
+<body>
+    <div class="main">
+        <nav class="navbar">
+            <a href="#" class="logo"><span>Abigail Bembridge</span></a>
+            <div class="Professional">
+                <ul>
+                    <li><a href="index2.html">Index</a></li>
+                    <li><a href="Professional.html">Professional</a></li>
+                    <li><a href="Personality.html">Personality</a></li>
+                    <li><a href="Personal-Development.html">Personal Development</a></li>
+                    <li><a href="Storyboard.html">Storyboard</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="container">
+            <section class="trait">
+                <h2>Strongest Trait Impacting Academic Life</h2>
+                <p>
+                    One of my strongest traits is <strong>determination</strong>. This quality has profoundly influenced my academic life by pushing me to overcome challenges and maintain focus on my goals. For instance, during my first year, I struggled with Programming 2. Instead of giving up, I dedicated extra hours each week to studying, seeking help from teachers and peers, and practicing problem sets. My determination not only improved my grades but also fostered a deeper understanding of the subject.
+                </p>
+                <p>
+                    This unwavering commitment extends to my extracurricular activities as well. Whether it's participating in science fairs or joining study groups, my determination drives me to contribute fully, ensuring I make the most of every opportunity. Overall, this trait has instilled resilience and a strong work ethic in me, leading to both academic success and personal growth.
+                </p>
+            </section>
+    
+            <section class="hero">
+                <h2>My Hero</h2>
+                <blockquote>
+                    "You may not control all the events that happen to you, but you can control your attitude toward them." - Maya Angelou
+                </blockquote>
+                <p>
+                    Maya Angelou is my hero because of her incredible resilience and the impact she had on literature and civil rights. Despite facing significant challenges, including racism and personal trauma, she transformed her experiences into powerful works of art and advocacy. Her ability to rise above adversity and inspire others through her words and actions resonates deeply with me.
+                </p>
+                <p>
+                    I admire her for not only her literary achievements but also her commitment to social justice and empowerment. She taught me the importance of maintaining a positive mindset, especially during difficult times, and encouraged me to use my voice to make a difference. Her legacy reminds me that while I may not control every circumstance, I can always choose how I respond. This perspective motivates me to approach challenges with courage and grace, influencing both my academic and personal life.
+                </p>
+            </section>
+        </div>
+    </div>
+
+</body>
+</html>
