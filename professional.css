@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 100%;
+    background: url(../Assests/background\ -\ Copy.jpeg);
+    background-position: relative;
+    z-index: 1;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    font-family: sans-serif;
+}
+.navbar {
+    width: 86%;
+    display: flex;
+    margin: auto;
+    padding: 15px 0;
+    align-items: center; /* Vertically centers items */
+    justify-content: space-between; /* Space between navbar items */
+}
+
+.navbar .logo {
+    cursor: pointer;
+    font-size: 25px;
+    color: rgb(14, 13, 13);
+    font-weight: 600;
+    font-family: 'Poppins'; /* Corrected font-family */
+    transition: 0.3s ease;
+    white-space: nowrap; /* Prevents line break */
+    margin-top: 1%;
+}
+
+
+.logo:hover{
+    color: #829672;
+    text-shadow: 0 0 25px  aquamarine,
+                 0 0 50px aquamarine;
+    transform: scale(1.1);
+     
+}
+span{
+    color:#D8959B;
+    
+}
+ul{
+    margin-top: 4%;
+}
+ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 16px;
+}
+ul li a{
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: 'Poppins';
+    color:#D8959B;
+    margin-top: -3%;
+    position: relative;
+}
+ul li a:hover{
+    color: #E3DADE;
+}
+.title{
+    color: #D8959B;
+    font-weight: 700;
+    font-size: x-large;
+
+}
+.motto-container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px;
+}
+.motto-box{
+    width: 350px;
+    background-color: white;
+    border: 1px solid #829672;
+    margin: 20px;
+}
+.motto-img{
+    width: 100%;
+    height: auto;
+}
+.motto-img img{
+    width: 100%;
+    height: 100;
+    object-fit: cover;
+    object-position: center;
+}
+.motto.text{
+    font-family: 'Poppins';
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.motto-text span{
+    font-family: 'Poppins';
+    color:  black ;
+    font-size: larger;
+    font-family: 'Poppins';
+    text-align: center;
+
+}
+.motto h3{
+    font-family: 'Poppins';
+    text-align: center;
+}
+.motto span{
+    font-family: 'Poppins';
+    font-size: medium;
+    display: -webkit-box;
+
+}
+
+
+
+
+
+.title{
+    color: #D8959B;
+    font-weight: 700;
+    font-size: x-large;
+
+}
+.skills-container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px;
+}
+.skills-box{
+    width: 350px;
+    background-color: white;
+    border: 1px solid #829672;
+    margin: 20px;
+}
+.skills-img{
+    width: 100%;
+    height: auto;
+}
+.skills-img img{
+    width: 100%;
+    height: 100;
+    object-fit: cover;
+    object-position: center;
+}
+.skills.text{
+    font-family: 'Poppins';
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.skills-text span{
+    color:  black ;
+    font-size: larger;
+    font-family: 'Poppins';
+    text-align: center;
+
+}
+.skills h3{
+    font-family: 'Poppins';
+    text-align: center;
+}
+.skills ul h3{
+    font-family: 'Poppins';
+    text-align: center;
+    font-size: smaller;
+}
+.skills span{
+    font-family: 'Poppins';
+    font-size: medium;
+    display: -webkit-box;
+
+}
+.skills ul p{
+    font-family: 'Poppins';
+    font-size: small;
+}
